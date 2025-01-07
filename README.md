@@ -1,9 +1,25 @@
 # Inventory Management Minikube
 
-Projek ini salah satu dan sekian banyak cara untuk simulasi deployment aplikasi spring boot
-dari mulai:    
-source code &rarr; automasi ci/cd github actions &rarr; docker hub &rarr; minikube.
+> ##### Projek ini salah satu pendekatan untuk menerapkan deployment aplikasi spring boot pada kubernetes lokal 
 
+### Alur Proses Otomasi:
+
+![image](https://github.com/user-attachments/assets/0c0513f0-ded5-4cb4-a71d-fde97d5efa86)
+
+Developer Commit &rarr; Github Repository Source Code &rarr; GitHub Actions CI/CD Automation &rarr; Docker Hub &rarr; Minikube Local Kubernetes Cluster &rarr; End User Access
+
+- **Developer Commit**    
+Developer commit the spring boot application source code
+- **Github Source Code Repository**    
+Github Source Code Repository
+- **GitHub Actions CI/CD Automation**    
+Automasi CI/CD Github Actions
+- **Docker Hub**    
+Docker Hub
+- **Minikube Local Kubernetes Cluster**    
+Minikube Local Kubernetes Cluster
+- **End User Access**    
+End User Access
 
 Penjelasan Aplikasi
 
