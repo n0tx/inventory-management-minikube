@@ -9,39 +9,18 @@
 Developer Commit &rarr; Github Repository Source Code &rarr; GitHub Actions CI/CD Automation &rarr; Docker Hub &rarr; Minikube Local Kubernetes Cluster &rarr; End User Access
 
 - **Developer Commit**    
-Developer commit the spring boot application source code
+Developer melakukan commit pada respository github untuk development aplikasi
 - **Github Source Code Repository**    
 Github Source Code Repository
+Tujuan atau tempat semua kode aplikasi di tempatkan dalam sebuah repository github
 - **GitHub Actions CI/CD Automation**    
-Automasi CI/CD Github Actions
+Alat otomasi CI/CD Github Actions dari github
 - **Docker Hub**    
-Docker Hub
+Tempat image yang telah melewati proses ci dan akan digunakan dalam proses cd
 - **Minikube Local Kubernetes Cluster**    
-Minikube Local Kubernetes Cluster
+Simulasi Kubernet tempat deployment aplikasi yang berjalan di localhost / Minikube Local Kubernetes Cluster
 - **End User Access**    
-End User Access
-
-Penjelasan Aplikasi
-
-![image](https://github.com/user-attachments/assets/7b440303-4f76-4279-8c09-db9bf78d9fa8)
-
-
-- Java 17
-- Maven
-- Spring Boot
-- Rest API
-- Spring Data JPA
-- Lombok
-- Validation
-- H2DB
-- Relational of table : Item, Inventory, Order
-- Inventory Stock Item Logic
-- Insufficent Stock Exception
-- List with Pagination
-
-This application can register new items, add items to the inventory, and place orders for items which will reduce the stock in the inventory
-
-Penjelasan Aplikasi dan Cara Menjalankan Aplikasi
+Setelah deployment dan membuat service maka aplikasi dapat di akses melalui browser dengan alamat ip loadbalancer
 
 Proses Deployment Aplikasi
 
