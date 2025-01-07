@@ -1,6 +1,6 @@
 # Inventory Management Minikube
 
-> ### Projek ini salah satu pendekatan untuk menerapkan deployment aplikasi spring boot pada kubernetes lokal 
+> #### Projek ini salah satu pendekatan untuk menerapkan deployment aplikasi spring boot pada kubernetes lokal 
 
 ### Alur Proses Otomasi:
 
