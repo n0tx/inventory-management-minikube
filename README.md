@@ -10,11 +10,9 @@
 ***Developer Commit*** &rarr; ***Github Repository*** &rarr; ***GitHub Actions CI/CD*** &rarr; ***DockerHub*** &rarr; ***Minikube*** &rarr; ***Expose***
 
 - **Developer Commit**    
-Developer melakukan commit source code pada respository github untuk development aplikasi    
-yang nanti akan kita gunakan sebagai trigger pada ci/cd github actions
+Developer melakukan commit source code pada respository github
 
 - **Github Source Code Repository**    
-Github Source Code Repository
 Tujuan atau tempat semua kode aplikasi di tempatkan dalam sebuah repository github
 
 - **GitHub Actions CI/CD Automation**    
