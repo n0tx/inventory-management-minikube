@@ -4,8 +4,8 @@
 
 ## Alur Proses Otomasi:
 
-![image](https://github.com/user-attachments/assets/0c0513f0-ded5-4cb4-a71d-fde97d5efa86)    
-
+![image](https://github.com/user-attachments/assets/0a427c13-d601-4200-9ee2-68ab144a10e9)
+    
 
 ***Developer Commit*** &rarr; ***Github Repository*** &rarr; ***GitHub Actions CI/CD*** &rarr; ***DockerHub*** &rarr; ***Minikube*** &rarr; ***Expose***
 
