@@ -13,19 +13,19 @@
 Developer melakukan commit source code pada respository github
 
 - **Github Source Code Repository**    
-Tujuan atau tempat semua kode aplikasi di tempatkan dalam sebuah repository github
+Tujuan atau tempat semua kode aplikasi dan konfigurasi deployment di tempatkan dalam sebuah repository github
 
 - **GitHub Actions CI/CD Automation**    
 Alat otomasi CI/CD Github Actions dari github
 
 - **Docker Hub**    
-Tempat image yang telah melewati proses ci dan akan digunakan dalam proses cd
+Repository docker image yang telah berhasil di build
 
 - **Minikube Local Kubernetes Cluster**    
-Simulasi Kubernet tempat deployment aplikasi yang berjalan di localhost / Minikube Local Kubernetes Cluster
+Minikube, localhost Kubernetes Cluster 
 
 - **End User Access**    
-Setelah deployment dan membuat service maka aplikasi dapat di akses melalui browser dengan alamat ip loadbalancer
+Setelah deployment dan membuat service maka aplikasi dapat di akses melalui browser dengan alamat ip dari Load Balancer
 
 
 Proses Deployment Aplikasi
