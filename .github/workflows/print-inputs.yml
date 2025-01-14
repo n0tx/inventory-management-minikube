@@ -4,11 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: "Riki Candra"
+        description: "Your name"
         required: true
-        default: "World"
       age:
-        description: "17"
+        description: "Your age"
         required: false
 
 jobs:
