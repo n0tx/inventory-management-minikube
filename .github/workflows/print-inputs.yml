@@ -1,0 +1,21 @@
+name: Workflow print with Inputs
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Riki Candra"
+        required: true
+        default: "World"
+      age:
+        description: "17"
+        required: false
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet user
+        run: |
+          echo "Hello, ${{ github.event.inputs.name }}!" 
+          echo "I thought you were over ${{ github.event.inputs.age }} years old."
