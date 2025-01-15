@@ -19,13 +19,13 @@ Tujuan atau tempat semua kode aplikasi dan konfigurasi deployment di tempatkan d
 Alat otomasi CI/CD Github Actions dari Github
 
 - **Docker Hub**    
-Repository docker image yang telah berhasil di build
+Repository docker image yang telah berhasil di build pada proses workflow CI Github Actions
 
 - **Minikube Local Kubernetes Cluster**    
 Minikube, localhost Kubernetes Cluster 
 
 - **End User Access**    
-Setelah deployment dan membuat service maka aplikasi dapat di akses melalui browser dengan alamat ip dari Load Balancer
+Setelah deployment dan membuat service maka aplikasi dapat di akses melalui browser dengan alamat ip dari Load Balancer (Cloud Provider) / NodePort (Lokal Minikube)
 
 
 Proses Deployment Aplikasi
