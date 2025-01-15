@@ -16,7 +16,7 @@ Developer melakukan commit source code pada respository github
 Tujuan atau tempat semua kode aplikasi dan konfigurasi deployment di tempatkan dalam sebuah repository github
 
 - **GitHub Actions CI/CD Automation**    
-Alat otomasi CI/CD Github Actions dari github
+Alat otomasi CI/CD Github Actions dari Github
 
 - **Docker Hub**    
 Repository docker image yang telah berhasil di build
