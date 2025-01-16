@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inventory-management-minikube
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: inventory-management-minikube
+  template:
+    metadata:
+      labels:
+        app: inventory-management-minikube
+    spec:
+      containers:
+        - name: inventory-management-minikube
+          image: rcandra612/inventory-management-minikube:v1
+
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://postgres-service:5432/inventory
+            - name: SPRING_DATASOURCE_USERNAME
+              value: springboot
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: springboot
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: inventory-management-minikube-service
+spec:
+  selector:
+    app: inventory-management-minikube
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: NodePort
